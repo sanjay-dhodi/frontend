@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>corporate</title>
+    <link rel="stylesheet" href="./css/styel.css" />
+  </head>
+  <body>
+    <!-- header section -->
+
+    <div class="header">
+      <div class="container">
+        <div class="header-nav">
+          <img src="./images/logo.png" alt="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+          <button class="primary-button">Contact us today</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- hero section -->
+
+    <div class="hero-section">
+      <img class="dotted-img1" src="./images/Dotted.png" alt="dotted effact" />
+      <img class="dotted-img2" src="./images/Dotted.png" alt="dotted effact" />
+
+      <div class="container">
+        <div class="hero-info">
+          <div class="hero-text">
+            <h1>Our <span>consultation</span> is always in sync with your strategy</h1>
+           
+            <p>Scelerisque dignissim in leo at magna donec mi metus ipsum luctus nam elit sociis luctus et aliquam libero.</p>
+            
+            <button class="primary-button">Our Services</button>
+          </div>
+           
+          <img src="./images/man.png" alt="corporate image" />
+        </div>
+        </div> 
+      </div>
+
+
+      <!-- feature section -->
+      <div class="feature-section">
+        <img class="dotted-img-orange" src="./images/Dotted-orng.png" alt="dotted effact">
+        <div class="feature-container">
+          <h5>CARE FEATURES</h5>
+          <h1>Awesome Service With Our Tools</h1>
+          
+          <div class="featurebox-container">
+          <div class="featurebox">
+            <img src="./images/app.png" alt="app">
+            <h3>App Development</h3>
+            <p>Helping families live intelligently means we’re always working to bring our customers.</p>
+          </div>
+
+          <div class="featurebox">
+            <img src="./images/cloud.png" alt="app">
+            <h3>Cloud Storage</h3>
+            <p>Helping families live intelligently means we’re always working to bring our customers.</p>
+          </div>
+
+          <div class="featurebox">
+            <img src="./images/ux.png" alt="app">
+            <h3>UX Planning</h3>
+            <p>Helping families live intelligently means we’re always working to bring our customers.</p>
+          </div>
+          </div>
+         
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <script>
+
+ (async ()=> {
+
+   await fetch('https://jsonplaceholder.typicode.com/posts')
+  .then((response) => response.json())
+  .then((json) => console.log(json));});
+    </script>
+    
+  </body>
+</html>
